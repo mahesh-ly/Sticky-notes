@@ -74,7 +74,7 @@ Here's a sneak peek of what the **Sticky Notes** app looks like:
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check out the [issues page](https://github.com/Mahi-Rathod/sticky-notes/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check out the [issues page](https://github.com/mahesh-ly/Sticky-notes/issues).
 
 ---
 
