@@ -1,0 +1,109 @@
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1.5rem;
+}
+
+.container h1 {
+  text-align: center;
+  font-family: "Zeyada", cursive;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.main {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  height: 7rem;
+  width: 12rem;
+  position: relative;
+  background-color: rgb(255, 250, 186);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(158, 158, 158);
+}
+
+.input-container textarea {
+  max-width: 95%;
+  max-height: 70%;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  font-weight: 600;
+  color: rgb(105, 105, 105);
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.input-container button {
+  position: absolute;
+  bottom: 0rem;
+  right: 0.3rem;
+  background: none;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  border: none;
+  color: rgb(105, 255, 35);
+  cursor: pointer;
+}
+
+.notes-container {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.notes-container .sticky-note {
+  position: relative;
+  width: 11.9rem;
+  height: 6.7rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgb(116, 115, 115);
+  filter: contrast(1);
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.sticky-note p {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-align: justify;
+  width: 85%;
+  margin: 0;
+  word-wrap: break-word;
+  filter: invert(2.8);
+}
+
+.sticky-note button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #ff6b6b; /* Red button background */
+  border: none;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.sticky-note button:hover {
+  background-color: #ff4c4c; /* Darker red on hover */
+}
